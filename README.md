@@ -19,3 +19,39 @@ Clonez le dépôt et installez les dépendances :
 git clone https://github.com/votre-utilisateur/nom-du-repo.git
 cd nom-du-repo
 pip install -r requirements.txt
+
+```
+---
+## ▶️ Utilisation
+
+### 🔉 Texte vers audio
+
+```python
+# Synthèse vocale simple
+droid.say("Hello, my name is Gord.")
+```
+
+### 📚 Lecture d’un PDF à voix haute
+
+Décommentez les lignes dans la section PDF et placez votre fichier `doc.pdf` dans le dossier.
+
+### 🧠 Audio vers texte (via le micro)
+
+```python
+# Le programme écoute votre voix et affiche le texte reconnu
+print("Parlez maintenant...")
+```
+
+## 📦 Dépendances
+
+Voir le fichier [`requirements.txt`](requirements.txt)
+
+## 🧑‍💻 Auteur
+
+Projet réalisé par **Raoul** 🤖
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
+
+````
