@@ -1,0 +1,10 @@
+
+---
+
+### ✅ `requirements.txt`
+
+```txt
+pyttsx3
+PyPDF2
+pyaudio
+SpeechRecognition
